@@ -1,0 +1,9 @@
+polars
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+graphviz
+statsmodels
+jupyterlab

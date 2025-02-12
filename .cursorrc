@@ -1,0 +1,30 @@
+{
+  "ai": {
+    "preferences": {
+      "libraries": {
+        "priority": ["polars", "pandas", "numpy"],
+        "default_imports": ["import polars as pl"]
+      },
+      "code_style": {
+        "prefer_polars": true,
+        "dataframe_alias": "pl.DataFrame"
+      },
+      "documentation": {
+        "preferred_sources": [
+          "https://pola-rs.github.io/polars/",
+          "https://pola-rs.github.io/polars-book/"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "pattern": "데이터프레임|DataFrame|df",
+        "suggest": "polars.DataFrame"
+      },
+      {
+        "pattern": "데이터 처리|data manipulation",
+        "prefer": "polars methods"
+      }
+    ]
+  }
+} 
