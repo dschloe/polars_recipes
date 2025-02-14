@@ -7,7 +7,12 @@
       },
       "code_style": {
         "prefer_polars": true,
-        "dataframe_alias": "pl.DataFrame"
+        "dataframe_alias": "pl.DataFrame",
+        "comments": {
+          "bilingual": true,
+          "languages": ["ko", "en"],
+          "format": "both"
+        }
       },
       "documentation": {
         "preferred_sources": [
