@@ -8,3 +8,8 @@ graphviz
 statsmodels
 jupyterlab
 pyarrow
+deltalake
+xlsx2csv
+xlsxwriter
+openpyxl
+xlrd
