@@ -29,6 +29,14 @@
       {
         "pattern": "데이터 처리|data manipulation",
         "prefer": "polars methods"
+      },
+      {
+        "pattern": "입니다|합니다|습니다",
+        "suggest": "이다|한다|다"
+      },
+      {
+        "pattern": "였습니다|했습니다",
+        "suggest": "였다|했다"
       }
     ]
   }
