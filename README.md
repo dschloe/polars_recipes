@@ -13,19 +13,14 @@ cd polars_recipes
 
 ## 설치 방법
 
-### 1. pip를 사용한 설치
-
-```bash
-pip install polars
+### 1. 가상 환경 설치
+- 폴더 최상위 경로에서 가상환경을 설치
+```
+pip install virtualenv # 기존에 이미 설치 한 적 있다면 생략 가능
+virtualenv venv
 ```
 
-### 2. conda를 사용한 설치
-
-```bash
-conda install polars -c conda-forge
-```
-
-### 3. 개발 환경 설정
+### 2. 가상 환경 접속
 
 가상환경 생성 및 필요 패키지 설치:
 
@@ -38,9 +33,21 @@ python -m venv venv
 venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
+```
 
+### 3. 주요 라이브러리 설치 
+```
 # 필요 패키지 설치
 pip install -r requirements.txt
+```
+
+## 테스트 방법
+### 3. 테스트 방법
+- 본 교재에는 `.ipynb` 파일들이 있습니다. 
+- `.ipynb` 파일의 경우
+  + `jupyter lab`에서 실행됩니다. 
+```bash
+jupyter lab
 ```
 
 ## 에러 문의
